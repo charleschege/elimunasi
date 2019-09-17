@@ -1,0 +1,4 @@
+[rethinkdb]
+dbname = "elimu_nasi"
+user = "admin"
+db_passphrase = ""

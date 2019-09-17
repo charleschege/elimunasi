@@ -1,0 +1,31 @@
+3*3
+455
+exit
+455
+sin(455)
+gtgt
+8 = 8
+8 * 8
+7/8000
+projects/elimu_nasi/elimunasi_client/
+cd projects/elimu_nasi/elimunasi_client/
+clear
+cargo check --offline
+COFF
+code .
+open Cargo.toml
+open Cargo.toml --raw
+passphraae
+passphrase
+clear
+c
+ps | pick rls
+ps | name rls
+ps | where name rls
+ps | get name
+ps | pick name
+clear
+nestat | where name vlc
+nestat | filter name vlc
+netstat | filter name vlc
+netstat | name vlc
