@@ -1,1 +1,4 @@
-nightly
+[toolchain]
+channel = "stable"
+components = ["rustfmt", "clippy"]
+targets = []
