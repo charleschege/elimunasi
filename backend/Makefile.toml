@@ -1,0 +1,7 @@
+[tasks.default]
+dependencies = ["build_backend"]
+
+[tasks.build_backend]
+command = "cargo"
+args = ["build"]
+dependencies = ["build"]
