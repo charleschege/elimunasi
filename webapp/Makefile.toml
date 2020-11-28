@@ -1,0 +1,11 @@
+[tasks.default]
+dependencies = ["create_wasm"]
+
+[tasks.create_wasm]
+command = "wasm-pack"
+args = ["build", "--dev", "--target", "web", "--out-name", "wasm", "--out-dir", "./resources/pkg"]
+watch = { ignore_pattern = "resources/*" }
+
+[tasks.serve]
+command = "miniserve"
+args = ["-p", "5500", "./resources", "--index", "index.html"]
