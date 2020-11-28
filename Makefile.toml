@@ -1,0 +1,19 @@
+[env]
+CARGO_MAKE_EXTEND_WORKSPACE_MAKEFILE = "true"
+
+[tasks.default]
+clear = true
+dependencies = ["check"]
+
+[tasks.check]
+command = "cargo"
+args = ["deny", "check"]
+dependencies = ["fetch"]
+
+[tasks.fetch]
+command = "cargo"
+args = ["check"]
+
+[tasks.clean]
+command = "cargo"
+args = ["clean"]
