@@ -1,0 +1,122 @@
+body {
+    font-family: "sans-serif"
+}
+
+.credentials-dark {
+  background: #0b1320;
+}
+.credentials-darker {
+  background:#1c1e20;
+}
+.credentials-container {
+  box-shadow: 0 0 3px rgba(0,0,0,.6);
+}
+
+.user-choice {
+  font-family: "Michroma", sans-serif;
+  padding: 0.8em 0.2em;
+  font-size: 80% !important;
+}
+.user-choice:hover {
+background: #0b1320 !important;
+color: #faae49;
+transition: transform 0.1s, background 0.4s, border-color 0.4s, color 0.4s, box-shadow 0.4s, -webkit-transform 0.1s;
+}
+
+.user-choice-left {
+  background: #fcd198;
+}
+.user-choice-right {
+  background: #faae49;
+}
+
+.font-primary {
+  font-family: "Michroma", sans-serif;
+}
+.cyan {
+  color: #00ffff !important;
+}
+.color-primary {
+  color: #fcd198 !important;
+}
+.color-secondary {
+  color: #0b1320;
+}
+input {
+  background: transparent !important;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #fcd198;
+  color: #fcd198;
+}
+label {
+  color: #fcd198;
+}
+.btn-secondary {
+  background: #faae49;
+  color: #0b1320;
+  border: none;
+  border-radius: 0;
+  font-size: 110%;
+  padding: .5em 1em;
+  font-family: "Michroma", "sans-serif";
+}
+.link-button {
+    background: #faae49;
+    color: #0b1320;
+    font-weight: 100;
+    font-size: 100% !important;
+    border-radius: 50px;
+    padding: .6em 1em;
+}
+.link-button:hover {
+    background: #fcd198;
+    color: #0b1320;
+    font-weight: 100;
+}
+
+.clear-button {
+    background: transparent;
+    color: #faae49;
+    border: 1px solid #faae49;
+    padding: .5em 1em;
+    font-weight: 100;
+    font-size: 100% !important;
+    border-radius: 50px;
+}
+.clear-button:hover {
+    background: #fcd198;
+    border: 1px solid #fcd198;
+    color: #0b1320;
+    font-weight: 100;
+}
+
+.btn-secondary {
+    background: #faae49;
+    color: #0b1320;
+    border: none;
+    border-radius: 0;
+    font-size: 110%;
+    padding: .5em 1em;
+    font-family: "Michroma", "sans-serif";
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+.btn-secondary:hover {
+    background: #0b1320;
+    color: #faae49;
+    border: none;
+    border-radius: 0;
+    font-size: 110%;
+    padding: .5em 1em;
+    font-family: "Michroma", "sans-serif";
+}
+.reset-part {
+    color: #00ffff;
+    text-decoration: underline;
+}
+.reset-part:hover {
+    color: #90ffff;
+}
+.font-weight-100 {
+    font-weight: 100;
+}
