@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal | ElimuNasi - Learning Made Easy...</title>
+    <link rel="stylesheet" href="/resources/styles/frow.css">
+    <link rel="stylesheet" href="/resources/styles/helpers.css">
+    <link rel="stylesheet" href="/resources/styles/main.css">
+    <link rel="shortcut icon" href="/resources/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <section id="app"></section>
+      <script type="module">
+        import init, { main } from './resources/pkg/wasm.js';
+        window.addEventListener('load', async () => {
+            await init();
+            await main("app");
+        });
+      </script>
+</body>
+</html>

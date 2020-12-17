@@ -8,8 +8,13 @@ license = "LicenseRef-ElimuNasi-Proprietary"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.34"
-smol = "1.2.4"
+anyhow = "1.0.35"
+async-dup = "1.2.2"
+async-executor = "1.4.0"
+async-fs = "1.5.0"
+futures-lite = "1.11.2"
+nanorand = "0.5.1"
 tide = "0.15.0"
 tide-compress = "0.8.1"
 tide-tracing = "0.0.7"
+turingdb-server = "2.0.0-beta.4"
